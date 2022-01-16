@@ -1,1 +1,1 @@
-### Bubble Sort Visializer
+# Bubble Sort Visializer
