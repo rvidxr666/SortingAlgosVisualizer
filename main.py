@@ -45,9 +45,6 @@ def draw(draw_info):
                                      draw_info.BLACK)
     draw_info.window.blit(controls, (draw_info.width / 2 - controls.get_width() / 2, 40))
 
-    # sorting = draw_info.FONT.render("I - Insertion Sort | B - Bubble Sort", 1, draw_info.BLACK)
-    # draw_info.window.blit(sorting, (draw_info.width / 2 - sorting.get_width() / 2, 35))
-
     draw_list(draw_info)
     pygame.display.update()
 
